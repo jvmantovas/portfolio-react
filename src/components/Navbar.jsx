@@ -40,38 +40,51 @@ const Navbar = () => {
         <li className="py-6 text-4xl">Contato</li>
       </ul>
       {/*social icons*/}
-      <div className="hidden md:flex fixed flex-col top-[35%] left-0 opacity-70">
+      <div className="flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
+          <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              Linkedin <FaLinkedin size={30} />
+              Linkedin{" "}
+              <FaLinkedin
+                className="mr-[-10px] lg:mr-0 duration-300"
+                size={30}
+              />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              GitHub <FaGithub size={30} />
+              GitHub{" "}
+              <FaGithub className="mr-[-10px] lg:mr-0 duration-300" size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
+          <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              E-Mail <HiOutlineMail size={30} />
+              E-Mail{" "}
+              <HiOutlineMail
+                className="mr-[-10px] lg:mr-0 duration-300"
+                size={30}
+              />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/"
             >
-              Curriculum <BsFillPersonLinesFill size={30} />
+              Curriculum{" "}
+              <BsFillPersonLinesFill
+                className="mr-[-10px] lg:mr-0 duration-300"
+                size={30}
+              />
             </a>
           </li>
         </ul>
