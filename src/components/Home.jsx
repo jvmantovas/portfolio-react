@@ -8,17 +8,20 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#081425]">
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full md:ml-8 lg:ml-16">
-        <p className="text-[#F4B325]">Olá, meu nome é</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           João Mantovaneli
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892B0]">
-          Front-End Developer
+          Desenvolvedor Front-End
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          Sou um desenvolvedor com ênfase em Front-End nas stacks HTML, CSS,
-          JavaScript, TypeScript e React. Busco evoluir profissionalmente,
-          agregando conhecimento e utilidade para os projetos em que trabalho.
+          Trabalho no desenvolvimento front-end com ênfase nas stacks
+          <span className="text-[#F4B325]"> HTML</span>,
+          <span className="text-[#F4B325]"> CSS</span>,
+          <span className="text-[#F4B325]"> JavaScript</span>,
+          <span className="text-[#F4B325]"> TypeScript</span> e
+          <span className="text-[#F4B325]"> React</span>.<br /> Adoro aprender
+          coisas novas e não nego um desafio.
         </p>
         <div>
           <a
