@@ -18,6 +18,13 @@ O projeto consiste em um portfólio web SPA responsivo.
 
 <br>
 
+<p align="center">
+  <img alt="demo" src="./src/assets/projects/web-home.png" width="100%">
+</p>
+<p align="center">
+  <img alt="demo" src="./src/assets/projects/web-mobile.png" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
