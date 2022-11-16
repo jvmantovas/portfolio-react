@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src={logo} alt="Logo" style={{ width: "180px" }} />
       </div>
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex text-[#F4B325]">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
