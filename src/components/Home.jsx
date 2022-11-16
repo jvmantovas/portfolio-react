@@ -45,7 +45,7 @@ const Home = () => {
               smooth={true}
               duration={2000}
             >
-              Ver trabalho
+              Ver trabalhos
               <span className="group-hover:rotate-90 duration-200">
                 <HiArrowNarrowRight className="ml-3" />
               </span>
