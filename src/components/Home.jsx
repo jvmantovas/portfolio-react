@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiOutlineDocumentArrowDown } from "react-icons/hi2";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -19,6 +20,20 @@ const Home = () => {
           JavaScript, TypeScript e React. Busco evoluir profissionalmente,
           agregando conhecimento e utilidade para os projetos em que trabalho.
         </p>
+        <div>
+          <a
+            href="https://docs.google.com/document/d/1Julge9Yxbr5_EL3ellBDy5cTcgbphF94/edit?usp=sharing&ouid=113305056471814256385&rtpof=true&sd=true"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="md:hidden text-white group w-[170px] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F4B325] hover:border-[#e09a03]">
+              Curriculum
+              <span className="group-hover:animate-bounce">
+                <HiOutlineDocumentArrowDown className="ml-4" />
+              </span>
+            </button>
+          </a>
+        </div>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F4B325] hover:border-[#e09a03]">
             <Link
