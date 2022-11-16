@@ -1,4 +1,5 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -17,10 +18,20 @@ const Contact = () => {
               Contato
             </p>
             {/*eslint-disable-next-line react/jsx-no-comment-textnodes*/}
-            <p className="text-gray-300 py-4">
-              // Envie o formulário abaixo ou entre em contato através de alguma
-              rede
+            <p className="text-gray-300 pt-4">
+              // Envie o formulário abaixo ou clique no ícone para me chamar no
+              WhatsApp
             </p>
+          </div>
+          <div className="flex items-center mt-[-30px] pb-4">
+            <a
+              className="top-0 text-gray-300 hover:scale-110 hover:text-green-500"
+              href="https://wa.me/5518997153090"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FaWhatsapp size={30} />
+            </a>
           </div>
           <input
             className="bg-[#ccd6f6] p-2"
