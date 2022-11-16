@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="work" smooth={true} duration={500}>
-            Trabalho
+            Trabalhos
           </Link>
         </li>
         <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
@@ -81,7 +81,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Trabalho
+            Trabalhos
           </Link>
         </li>
         <li className="py-6 text-4xl hover:scale-110 duration-300">
