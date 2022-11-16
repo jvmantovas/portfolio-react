@@ -18,27 +18,27 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className="hidden md:flex text-[#F4B325]">
-        <li>
+        <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="about" smooth={true} duration={500}>
             Sobre
           </Link>
         </li>
-        <li>
+        <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="skills" smooth={true} duration={500}>
             Habilidades
           </Link>
         </li>
-        <li>
+        <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="work" smooth={true} duration={500}>
             Trabalho
           </Link>
         </li>
-        <li>
+        <li className="rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-[#fdc752] hover:shadow-md hover:shadow-[#040c16]">
           <Link to="contact" smooth={true} duration={500}>
             Contato
           </Link>
@@ -59,32 +59,32 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#081425] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             Sobre
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Habilidades
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Trabalho
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contato
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:scale-110 duration-300">
           <a
             href="https://docs.google.com/document/d/1Julge9Yxbr5_EL3ellBDy5cTcgbphF94/edit?usp=sharing&ouid=113305056471814256385&rtpof=true&sd=true"
             rel="noreferrer"
