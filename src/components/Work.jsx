@@ -26,6 +26,47 @@ const Work = () => {
           >
             <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
               <span className="text-2xl font-bold text-white tracking-wider">
+                Portfólio
+              </span>
+              <div className="font-semibold text-sm py-4 px-2">
+                <p>
+                  Este é o projeto deste portfólio que você está navegando,
+                  construido de forma responsiva e acessível. Acessando o código
+                  você pode encontrar mais informações.
+                  <p className="font-bold text-blue-400">
+                    #html #css #tailwind #javascript #react
+                  </p>
+                </p>
+              </div>
+              <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
+                <a
+                  href="https://joaomantovaneli.vercel.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <button className="text-center h-full px-4 rounded-lg bg-[#F4B325] text-gray-700 font-bold text-lg hover:scale-110 duration-300">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/jvmantovas/portfolio-react"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <button className="text-center h-full px-4 rounded-lg bg-[#F4B325] text-gray-700 font-bold text-lg hover:scale-110 duration-300">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* project card */}
+          <div
+            style={{ backgroundImage: `url(${Pokedex})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
+          >
+            <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 PokéDex Web App
               </span>
               <div className="font-semibold text-sm py-4 px-2">
