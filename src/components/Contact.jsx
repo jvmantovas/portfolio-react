@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-screen bg-[#081425] flex justify-center items-center p-4 px-8"
     >
       <form
         method="POST"
@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-[#F4B325] text-gray-300">
             Contato
           </p>
           {/*eslint-disable-next-line react/jsx-no-comment-textnodes*/}
@@ -38,7 +38,7 @@ const Contact = () => {
           rows="10"
           placeholder="Mensagem"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-800 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-[#F4B325] hover:border-[#e09a03] px-4 py-3 my-8 mx-auto flex items-center">
           Enviar
         </button>
       </form>

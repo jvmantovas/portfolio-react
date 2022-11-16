@@ -6,11 +6,11 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-full pt-20 text-gray-300 bg-[#0a192f]"
+      className="w-full md:h-full pt-20 px-8 text-gray-300 bg-[#081425]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#F4B325]">
             Trabalhos
           </p>
           {/*eslint-disable-next-line react/jsx-no-comment-textnodes*/}

@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full h-screen bg-[#081425]">
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full md:ml-8 lg:ml-16">
-        <p className="text-pink-600">Olá, meu nome é</p>
+        <p className="text-[#F4B325]">Olá, meu nome é</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           João Mantovaneli
         </h1>
@@ -20,7 +20,7 @@ const Home = () => {
           agregando conhecimento e utilidade para os projetos em que trabalho.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-800">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#F4B325] hover:border-[#e09a03]">
             <Link
               className="flex items-center"
               to="work"
