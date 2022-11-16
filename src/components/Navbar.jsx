@@ -101,6 +101,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/joaomantovaneli/"
+              rel="noreferrer"
+              target="_blank"
             >
               Linkedin{" "}
               <FaLinkedin
@@ -113,6 +115,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/jvmantovas"
+              rel="noreferrer"
+              target="_blank"
             >
               GitHub
               <FaGithub className="mr-[-10px] lg:mr-0 duration-300" size={30} />
