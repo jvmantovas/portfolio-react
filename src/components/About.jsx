@@ -15,16 +15,28 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 pl-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Olá, sou o João, prazer em conhecê-lo. Fique a vontade para
-              conhecer meu trabalho.
+              Obrigado pela visita.{" "}
+              <p className="text-3xl">
+                Fique a vontade para explorar o site e conhecer meu trabalho.
+              </p>
             </p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Obcaecati deserunt reiciendis ex blanditiis consequuntur possimus
-              adipisci voluptatum nihil, aut non quasi ipsum quisquam ullam
-              doloribus temporibus, dolorum odio provident minima?
+              Me chamo João Mantovaneli, tenho 26 anos, gosto muito de música,
+              café e de me manter informado. Através da tecnologia, busco
+              agregar valor, desenvolvendo soluções funcionais que mitiguem
+              problemas reais.
+            </p>
+            <p>
+              {" "}
+              Minha meta é agregar conhecimento e utilidade para os projetos em
+              que trabalho e aprender com eles. Me mantenho sempre disposto a
+              aprender coisas novas e me adaptar a mudanças.
+              <p>
+                Sou movido a desafios, superação de problemas e entrega de
+                resultados dia após dia.
+              </p>
             </p>
           </div>
         </div>
