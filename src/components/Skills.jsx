@@ -6,18 +6,19 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import Typescript from "../assets/typescript.png";
 
 const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-screen bg-[#0a192f] text-gray-300 px-8 pt-20"
+      className="w-full h-screen bg-[#081425] text-gray-300 px-8 pt-20"
     >
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-            Experience
+          <p className="text-4xl font-bold inline border-b-4 border-[#F4B325]">
+            Experiência
           </p>
           {/*eslint-disable-next-line react/jsx-no-comment-textnodes*/}
           <p className="py-4">
@@ -42,7 +43,7 @@ const Skills = () => {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML" />
+            <img className="w-20 mx-auto" src={Typescript} alt="HTML" />
             <p className="my-4">TypeScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
