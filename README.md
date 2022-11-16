@@ -13,7 +13,9 @@ O projeto consiste em um portfólio web SPA responsivo.
 
 <p align="center">
   <img alt="React" src="https://img.shields.io/badge/react-8.19.2-blue"
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</p>
+  <p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
