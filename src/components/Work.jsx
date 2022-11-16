@@ -1,6 +1,7 @@
 import React from "react";
 import Pokedex from "../assets/projects/pokedex.png";
 import Quickpay from "../assets/projects/quickpay.png";
+import Portfolio from "../assets/projects/web-home.png";
 
 const Work = () => {
   return (
@@ -21,7 +22,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* project card */}
           <div
-            style={{ backgroundImage: `url(${Pokedex})` }}
+            style={{ backgroundImage: `url(${Portfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
           >
             <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
