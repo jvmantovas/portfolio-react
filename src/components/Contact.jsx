@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#081425] flex justify-center items-center p-4 px-8"
+      className="w-full h-fit bg-[#081425] flex justify-center items-center pt-20 p-4 px-8"
     >
       <form
         method="POST"
@@ -17,7 +17,8 @@ const Contact = () => {
           </p>
           {/*eslint-disable-next-line react/jsx-no-comment-textnodes*/}
           <p className="text-gray-300 py-4">
-            // Envie o formulário abaixo ou mande um e-mail - vmsjoao@gmail.com
+            // Envie o formulário abaixo ou entre em contato através de alguma
+            rede
           </p>
         </div>
         <input
