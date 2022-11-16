@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#081425] text-gray-300">
       <div>
-        <img src={logo} alt="Logo" style={{ width: "180px" }} />
+        <Link to="home" smooth={true} duration={500}>
+          <img src={logo} alt="Logo" style={{ width: "180px" }} />
+        </Link>
       </div>
       {/* menu */}
       <ul className="hidden md:flex text-[#F4B325]">
@@ -82,6 +84,15 @@ const Navbar = () => {
             Contato
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <a
+            href="https://docs.google.com/document/d/1Julge9Yxbr5_EL3ellBDy5cTcgbphF94/edit?usp=sharing&ouid=113305056471814256385&rtpof=true&sd=true"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Curriculum
+          </a>
+        </li>
       </ul>
       {/*social icons*/}
       <div className="flex fixed flex-col top-[35%] left-0">
@@ -89,7 +100,7 @@ const Navbar = () => {
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/joaomantovaneli/"
             >
               Linkedin{" "}
               <FaLinkedin
@@ -101,18 +112,18 @@ const Navbar = () => {
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/jvmantovas"
             >
-              GitHub{" "}
+              GitHub
               <FaGithub className="mr-[-10px] lg:mr-0 duration-300" size={30} />
             </a>
           </li>
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:vmsjoao@gmail.com"
             >
-              E-Mail{" "}
+              E-Mail
               <HiOutlineMail
                 className="mr-[-10px] lg:mr-0 duration-300"
                 size={30}
@@ -122,9 +133,11 @@ const Navbar = () => {
           <li className="w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1Julge9Yxbr5_EL3ellBDy5cTcgbphF94/edit?usp=sharing&ouid=113305056471814256385&rtpof=true&sd=true"
+              rel="noreferrer"
+              target="_blank"
             >
-              Curriculum{" "}
+              Curriculum
               <BsFillPersonLinesFill
                 className="mr-[-10px] lg:mr-0 duration-300"
                 size={30}
