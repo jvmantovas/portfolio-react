@@ -83,7 +83,7 @@ const Work = () => {
               </div>
               <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
                 <a
-                  href="calculatora-react.vercel.app/"
+                  href="https://calculatora-react.vercel.app/"
                   rel="noreferrer"
                   target="_blank"
                 >
