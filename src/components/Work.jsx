@@ -73,11 +73,9 @@ const Work = () => {
               </span>
               <div className="font-semibold text-sm py-4 px-2">
                 <p>
-                  Este web app de calculadora foi construido com React,
-                  utilizando os hooks useState, useEffect e useCallback e
-                  estilizada com styled-components. A calculadora teve
-                  inspiração nos modelos retrô, tanto no visual quanto nas
-                  funcionalidades.
+                  Este web app de calculadora com visual retrô foi construido
+                  com React, utilizando os hooks useState, useEffect e
+                  useCallback e estilizada com styled-components.
                   <p className="font-bold text-blue-400">
                     #html #css #javascript #react #styled-components #hooks
                   </p>
