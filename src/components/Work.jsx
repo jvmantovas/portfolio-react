@@ -71,7 +71,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Calculadora React
               </span>
-              <div className="font-semibold text-sm py-4 px-2">
+              <div className="font-semibold text-sm py-4 px-2 ">
                 <p>
                   Este web app de calculadora com visual retrô foi construido
                   com React, utilizando os hooks useState, useEffect e
@@ -81,7 +81,7 @@ const Work = () => {
                   </p>
                 </p>
               </div>
-              <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
+              <div className="absolute bottom-3 w-[50%] m-auto text-center max-h-10 flex space-x-4 pt-2 justify-center">
                 <a
                   href="https://calculatora-react.vercel.app/"
                   rel="noreferrer"
