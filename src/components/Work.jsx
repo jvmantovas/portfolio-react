@@ -20,17 +20,17 @@ const Work = () => {
             // Confira alguns projetos recentes em que trabalhei
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="relative grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* project card */}
           <div
             style={{ backgroundImage: `url(${Portfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
           >
-            <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="relative w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2 flex justify-center">
+              <span className="absolute text-2xl font-bold text-white tracking-wider pb-2">
                 Portfólio
               </span>
-              <div className="font-semibold text-sm py-4 px-2">
+              <div className="absolute flex justify-center items-center font-semibold text-sm md:text-base py-8 px-2">
                 <p>
                   Este é o projeto deste portfólio que você está navegando,
                   construido de forma responsiva e acessível. Acessando o código
@@ -40,7 +40,7 @@ const Work = () => {
                   </p>
                 </p>
               </div>
-              <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
+              <div className="absolute bottom-3 text-center max-h-10 flex space-x-4 pt-2 items-center flex-end">
                 <a
                   href="https://joaomantovaneli.vercel.app/"
                   rel="noreferrer"
@@ -67,11 +67,11 @@ const Work = () => {
             style={{ backgroundImage: `url(${Calculator})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
           >
-            <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="relative w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2 flex justify-center">
+              <span className="absolute text-2xl font-bold text-white tracking-wider pb-2">
                 Calculadora React
               </span>
-              <div className="font-semibold text-sm py-4 px-2 ">
+              <div className="absolute flex justify-center items-center font-semibold text-sm md:text-base py-8 px-2">
                 <p>
                   Este web app de calculadora com visual retrô foi construido
                   com React, utilizando os hooks useState, useEffect e
@@ -81,7 +81,7 @@ const Work = () => {
                   </p>
                 </p>
               </div>
-              <div className="absolute bottom-3 w-[50%] m-auto text-center max-h-10 flex space-x-4 pt-2 justify-center">
+              <div className="absolute bottom-3 text-center max-h-10 flex space-x-4 pt-2 items-center flex-end">
                 <a
                   href="https://calculatora-react.vercel.app/"
                   rel="noreferrer"
@@ -108,11 +108,11 @@ const Work = () => {
             style={{ backgroundImage: `url(${Pokedex})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
           >
-            <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                PokéDex Web App
+            <div className="relative w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2 flex justify-center">
+              <span className="absolute text-2xl font-bold text-white tracking-wider pb-2">
+                Calculadora React
               </span>
-              <div className="font-semibold text-sm py-4 px-2">
+              <div className="absolute flex justify-center items-center font-semibold text-sm md:text-base py-8 px-2">
                 <p>
                   A PokéDex é um aplicativo web que consome a{" "}
                   <a
@@ -131,7 +131,7 @@ const Work = () => {
                   </p>
                 </p>
               </div>
-              <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
+              <div className="absolute bottom-3 text-center max-h-10 flex space-x-4 pt-2 items-center flex-end">
                 <a
                   href="https://pokedex-js-jvmantovas.vercel.app/"
                   rel="noreferrer"
@@ -158,11 +158,11 @@ const Work = () => {
             style={{ backgroundImage: `url(${Quickpay})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative hover:scale-105 duration-300"
           >
-            <div className="absolute w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="relative w-full h-full bg-fixed rounded-md opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out bg-[#102747d3] border-2 border-[#F4B325] text-center pt-2 flex justify-center">
+              <span className="absolute text-2xl font-bold text-white tracking-wider pb-2">
                 Quickpay CC Validator
               </span>
-              <div className=" font-semibold text-sm py-4 px-2">
+              <div className="absolute flex justify-center items-center font-semibold text-sm md:text-base py-8 px-2">
                 <p>
                   O Quickpay é um componente que simula o formulário de
                   preenchimento de cartão de crédito, onde é possível adicionar
@@ -173,7 +173,7 @@ const Work = () => {
                   </p>
                 </p>
               </div>
-              <div className="absolute bottom-3 left-16 text-center max-h-10 flex space-x-4 pt-2">
+              <div className="absolute bottom-3 text-center max-h-10 flex space-x-4 pt-2 items-center flex-end">
                 <a
                   href="http://quickpay-cc-checker-js.vercel.app/"
                   rel="noreferrer"
@@ -195,6 +195,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/*end of project card*/}
         </div>
       </div>
     </div>
